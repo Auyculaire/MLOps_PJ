@@ -10,7 +10,7 @@ pipeline {
         stage('Build part') {
             steps {
                 bat 'echo build start'
-                bat 'pip3 install -r requirements.txt'
+                bat 'python3 -m pip install -r requirements.txt'
             }
         }
         stage('Test part') {
