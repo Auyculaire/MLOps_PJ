@@ -10,13 +10,13 @@ pipeline {
         stage('Build part') {
             steps {
                 bat 'echo build start'
-                bat 'python3 -m pip install -r requirements.txt'
+                bat '/c/Users/timo-/AppData/Local/Microsoft/WindowsApps/python3 -m pip install -r requirements.txt'
             }
         }
         stage('Test part') {
             steps {       
                 bat 'echo test start'
-                bat 'python3 -m unittest'
+                bat '/c/Users/timo-/AppData/Local/Microsoft/WindowsApps/python3 -m unittest'
             }
         }
         stage('Deploy part') {
