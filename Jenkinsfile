@@ -1,12 +1,12 @@
 pipeline {
     agent any 
     stages {
-	stage('Checkout') {
-	    steps {
+	//stage('Checkout') {
+	   // steps {
 		//bat "git checkout main"
                 //bat "git push origin main"
-	    }
-	}
+	   // }
+	//}
         stage('Build part') {
             steps {
                 bat 'echo build start'
