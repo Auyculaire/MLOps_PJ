@@ -3,8 +3,8 @@ pipeline {
     stages {
 	stage('Checkout') {
 	    steps {
-		bat "git checkout Aury"
-                bat "git push origin Aury"
+		bat "git checkout main"
+                bat "git push origin main"
 	    }
 	}
         stage('Build part') {
