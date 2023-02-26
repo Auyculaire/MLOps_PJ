@@ -16,7 +16,7 @@ pipeline {
         stage('Test part') {
             steps {       
                 bat 'echo test start'
-                bat '"C:\Users\timo-\AppData\Local\Microsoft\WindowsApps\python3.exe" -m unittest'
+                bat '"C:/Users/timo-/AppData/Local/Microsoft/WindowsApps/python3.exe" -m unittest'
             }
         }
         stage('Deploy part') {
