@@ -16,7 +16,7 @@ pipeline {
         stage('Test part') {
             steps {       
                 bat 'echo test start'
-                bat 'python3 -m unittest'
+                bat 'C:/Users/timo-/anaconda3/python.exe -m unittest'
             }
         }
         stage('Deploy part') {
