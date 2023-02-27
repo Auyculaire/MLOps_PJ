@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 COPY . .
 
-CMD [ "C:/Users/timo-/AppData/Local/Microsoft/WindowsApps/python3.exe", "-m", "flask", "run"]
+CMD [ ""C:/Users/timo-/anaconda3/python.exe"", "-m", "flask", "run"]
