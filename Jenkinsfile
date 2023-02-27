@@ -10,7 +10,7 @@ pipeline {
         stage('Build part') {
             steps {
                 bat 'echo build start'
-                bat 'C:/Users/timo-/AppData/Local/Microsoft/WindowsApps/python3.exe -m pip install -r requirements.txt'
+                bat '"C:/Users/timo-/anaconda3/python.exe" -m pip install -r requirements.txt'
             }
         }
         stage('Test part') {
